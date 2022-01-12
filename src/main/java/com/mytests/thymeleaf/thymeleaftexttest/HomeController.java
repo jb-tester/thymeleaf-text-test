@@ -14,12 +14,12 @@ public class HomeController {
     public ModelAndView foo() {
 
         ModelAndView mav = new ModelAndView("home");
-        mav.addObject("attr1", "hello!");
+        mav.addObject("attr1", "hello");
         mav.addObject("attr2", "IDEA user");
         List<String> mylist = new ArrayList<>();
-        mylist.add("IDEA 2016.*");
-        mylist.add("IDEA 2017.*");
-        mylist.add("IDEA 2018.*");
+        mylist.add("IDEA 2021.3");
+        mylist.add("IDEA 2021.2");
+        mylist.add("IDEA 2021.1");
         mav.addObject("attr3", mylist);
         return mav;
     }
