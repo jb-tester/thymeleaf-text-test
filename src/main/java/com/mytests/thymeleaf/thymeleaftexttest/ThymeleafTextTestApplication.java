@@ -1,5 +1,6 @@
 package com.mytests.thymeleaf.thymeleaftexttest;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
